@@ -13,7 +13,7 @@
       color: #333;
     }
     header {
-      background: url('livros-fundo.jpg') center/cover no-repeat;
+      background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') center/cover no-repeat;
       color: white;
       text-align: center;
       padding: 60px 20px;
@@ -89,33 +89,52 @@
 </header>
 
 <main>
+  <!-- Gerado com base nos 32 livros fornecidos -->
+  <!-- Você pode substituir os nomes dos arquivos de imagem e links -->
 
-  <div class="livro">
-    <img src="habitos-atomicos.jpg" alt="Hábitos Atômicos" />
-    <h2>Hábitos Atômicos</h2>
-    <a class="comprar-btn" href="https://amzn.to/44xUA6Q" target="_blank" rel="noopener">Comprar Agora</a>
-  </div>
+  <!-- Começo da lista de livros -->
+  <!-- Substitua os "img src" e os hrefs conforme desejar -->
 
-  <div class="livro">
-    <img src="poder-do-habito.jpg" alt="O Poder do Hábito" />
-    <h2>O Poder do Hábito</h2>
-    <a class="comprar-btn" href="https://amzn.to/3GfWu2z" target="_blank" rel="noopener">Comprar Agora</a>
-  </div>
-
-  <div class="livro">
-    <img src="mindset.jpg" alt="Mindset: A nova psicologia do sucesso" />
-    <h2>Mindset: A nova psicologia do sucesso</h2>
-    <a class="comprar-btn" href="https://amzn.to/3FW4g1I" target="_blank" rel="noopener">Comprar Agora</a>
-  </div>
-
-  <div class="livro">
-    <img src="comece-pelo-porque.jpg" alt="Comece pelo Porquê" />
-    <h2>Comece pelo Porquê</h2>
-    <a class="comprar-btn" href="https://amzn.to/43YKprL" target="_blank" rel="noopener">Comprar Agora</a>
-  </div>
-
-  <!-- Continue incluindo os livros conforme o modelo acima -->
-
+  ${[
+    "Admirável Mundo Novo",
+    "Uma Breve História da Terra",
+    "A Vida Como Ela É",
+    "Do Amor - Stendhal",
+    "Meditações - Marco Aurélio",
+    "20.000 Léguas Submarinas",
+    "O Poder do Hábito",
+    "Hábitos Atômicos",
+    "A Volta ao Mundo em 80 Dias",
+    "O Óbvio que Ignoramos",
+    "A Metamorfose",
+    "Um Homem Chamado Merlin",
+    "Madame Bovary",
+    "O Mito de Sísifo",
+    "O Ponto de Virada",
+    "Nação Dopamina",
+    "Ecce Homo",
+    "O Diário de um Mago",
+    "Moby Dick",
+    "Pai Rico Pai Pobre",
+    "Moisés e o Monoteísmo",
+    "O Livro que Você Gostaria que Todas as Pessoas que Você Ama Lessem",
+    "Quem Mexeu no Meu Queijo?",
+    "A Causa Secreta",
+    "As Neves do Kilimanjaro",
+    "Sapiens: Uma Breve História da Humanidade",
+    "Mar Sem Fim",
+    "O Milagre da Manhã",
+    "O Cérebro de Buda",
+    "Comece pelo Porquê",
+    "A Arte da Guerra",
+    "Mindset: A Nova Psicologia do Sucesso"
+  ].map(titulo => `
+    <div class="livro">
+      <img src="https://via.placeholder.com/180x250?text=${encodeURIComponent(titulo)}" alt="${titulo}" />
+      <h2>${titulo}</h2>
+      <a class="comprar-btn" href="#" target="_blank" rel="noopener">Comprar Agora</a>
+    </div>
+  `).join('')}
 </main>
 
 </body>
