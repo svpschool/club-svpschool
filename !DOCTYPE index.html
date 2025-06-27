@@ -11,9 +11,11 @@
       margin: 0;
       padding: 0;
       color: #333;
+      height: auto;
+      overflow-y: auto;
     }
     header {
-      background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794') center/cover no-repeat;
+      background: url('https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1350') center/cover no-repeat;
       color: white;
       text-align: center;
       padding: 60px 20px;
@@ -51,7 +53,8 @@
     }
     .livro img {
       width: 100%;
-      height: auto;
+      height: 250px;
+      object-fit: cover;
       border-radius: 6px;
     }
     .livro h2 {
@@ -89,42 +92,40 @@
 </header>
 
 <main>
-  <!-- 32 livros com imagens de placeholder -->
-
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Admirável+Mundo+Novo" alt="Admirável Mundo Novo" /><h2>Admirável Mundo Novo</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Uma+Breve+História+da+Terra" alt="Uma Breve História da Terra" /><h2>Uma Breve História da Terra</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=A+Vida+Como+Ela+É" alt="A Vida Como Ela É" /><h2>A Vida Como Ela É</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Do+Amor+-+Stendhal" alt="Do Amor - Stendhal" /><h2>Do Amor - Stendhal</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Meditações+Marco+Aurélio" alt="Meditações Marco Aurélio" /><h2>Meditações Marco Aurélio</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=20.000+Léguas+Submarinas" alt="20.000 Léguas Submarinas" /><h2>20.000 Léguas Submarinas</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Poder+do+Hábito" alt="O Poder do Hábito" /><h2>O Poder do Hábito</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Hábitos+Atômicos" alt="Hábitos Atômicos" /><h2>Hábitos Atômicos</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=A+Volta+ao+Mundo+em+80+Dias" alt="A Volta ao Mundo em 80 Dias" /><h2>A Volta ao Mundo em 80 Dias</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Óbvio+que+Ignoramos" alt="O Óbvio que Ignoramos" /><h2>O Óbvio que Ignoramos</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=A+Metamorfose" alt="A Metamorfose" /><h2>A Metamorfose</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Um+Homem+Chamado+Merlin" alt="Um Homem Chamado Merlin" /><h2>Um Homem Chamado Merlin</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Madame+Bovary" alt="Madame Bovary" /><h2>Madame Bovary</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Mito+de+Sísifo" alt="O Mito de Sísifo" /><h2>O Mito de Sísifo</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Ponto+de+Virada" alt="O Ponto de Virada" /><h2>O Ponto de Virada</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Nação+Dopamina" alt="Nação Dopamina" /><h2>Nação Dopamina</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Ecce+Homo" alt="Ecce Homo" /><h2>Ecce Homo</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Diário+de+um+Mago" alt="O Diário de um Mago" /><h2>O Diário de um Mago</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Moby+Dick" alt="Moby Dick" /><h2>Moby Dick</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Pai+Rico+Pai+Pobre" alt="Pai Rico Pai Pobre" /><h2>Pai Rico Pai Pobre</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Moisés+e+o+Monoteísmo" alt="Moisés e o Monoteísmo" /><h2>Moisés e o Monoteísmo</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Livro+que+Você+Gostaria+que+Todas+as+Pessoas+Lessem" alt="O Livro que Você Gostaria..." /><h2>O Livro que Você Gostaria...</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Quem+Mexeu+no+Meu+Queijo" alt="Quem Mexeu no Meu Queijo?" /><h2>Quem Mexeu no Meu Queijo?</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=A+Causa+Secreta" alt="A Causa Secreta" /><h2>A Causa Secreta</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=As+Neves+do+Kilimanjaro" alt="As Neves do Kilimanjaro" /><h2>As Neves do Kilimanjaro</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Sapiens" alt="Sapiens: Uma Breve História da Humanidade" /><h2>Sapiens</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Mar+Sem+Fim" alt="Mar Sem Fim" /><h2>Mar Sem Fim</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Milagre+da+Manhã" alt="O Milagre da Manhã" /><h2>O Milagre da Manhã</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=O+Cérebro+de+Buda" alt="O Cérebro de Buda" /><h2>O Cérebro de Buda</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Comece+pelo+Porquê" alt="Comece pelo Porquê" /><h2>Comece pelo Porquê</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=A+Arte+da+Guerra" alt="A Arte da Guerra" /><h2>A Arte da Guerra</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
-  <div class="livro"><img src="https://via.placeholder.com/180x250?text=Mindset" alt="Mindset: A Nova Psicologia do Sucesso" /><h2>Mindset</h2><a class="comprar-btn" href="#">Comprar Agora</a></div>
+  <!-- Todos os 32 livros -->
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,1" alt="Admirável Mundo Novo"><h2>Admirável Mundo Novo</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,2" alt="Uma Breve História da Terra"><h2>Uma Breve História da Terra</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,3" alt="A Vida Como Ela É"><h2>A Vida Como Ela É</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,4" alt="Do Amor – Stendhal"><h2>Do Amor – Stendhal</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,5" alt="Meditações – Marco Aurélio"><h2>Meditações – Marco Aurélio</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,6" alt="20.000 Léguas Submarinas"><h2>20.000 Léguas Submarinas</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,7" alt="O Poder do Hábito"><h2>O Poder do Hábito</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,8" alt="Hábitos Atômicos"><h2>Hábitos Atômicos</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,9" alt="A Volta ao Mundo em 80 Dias"><h2>A Volta ao Mundo em 80 Dias</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,10" alt="O Óbvio que Ignoramos"><h2>O Óbvio que Ignoramos</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,11" alt="A Metamorfose"><h2>A Metamorfose</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,12" alt="Um Homem Chamado Merlin"><h2>Um Homem Chamado Merlin</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,13" alt="Madame Bovary"><h2>Madame Bovary</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,14" alt="O Mito de Sísifo"><h2>O Mito de Sísifo</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,15" alt="O Ponto de Virada"><h2>O Ponto de Virada</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,16" alt="Nação Dopamina"><h2>Nação Dopamina</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,17" alt="Ecce Homo"><h2>Ecce Homo</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,18" alt="O Diário de um Mago"><h2>O Diário de um Mago</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,19" alt="Moby Dick"><h2>Moby Dick</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,20" alt="Pai Rico Pai Pobre"><h2>Pai Rico Pai Pobre</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,21" alt="Moisés e o Monoteísmo"><h2>Moisés e o Monoteísmo</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,22" alt="O Livro que Você Gostaria que Todas as Pessoas que Você Ama Lessem"><h2>O Livro que Você Gostaria...</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,23" alt="Quem Mexeu no Meu Queijo?"><h2>Quem Mexeu no Meu Queijo?</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,24" alt="A Causa Secreta"><h2>A Causa Secreta</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,25" alt="As Neves do Kilimanjaro"><h2>As Neves do Kilimanjaro</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,26" alt="Sapiens"><h2>Sapiens: Uma Breve História da Humanidade</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,27" alt="Mar Sem Fim"><h2>Mar Sem Fim</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,28" alt="O Milagre da Manhã"><h2>O Milagre da Manhã</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,29" alt="O Cérebro de Buda"><h2>O Cérebro de Buda</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,30" alt="Comece pelo Porquê"><h2>Comece pelo Porquê</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,31" alt="A Arte da Guerra"><h2>A Arte da Guerra</h2><a class="comprar-btn" href="#">Comprar</a></div>
+  <div class="livro"><img src="https://source.unsplash.com/random/180x250?book,32" alt="Mindset: A Nova Psicologia do Sucesso"><h2>Mindset</h2><a class="comprar-btn" href="#">Comprar</a></div>
 
 </main>
-
 </body>
 </html>
